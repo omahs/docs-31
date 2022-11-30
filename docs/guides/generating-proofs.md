@@ -82,7 +82,7 @@ contract MyContract {
 
    function myFunction(
         uint256 groupId,
-        string calldata signal,
+        bytes32 calldata signal,
         uint256 nullifierHash,
         uint256 externalNullifier,
         uint256[8] calldata proof
